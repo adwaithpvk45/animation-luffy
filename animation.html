@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <div style="width:250px;height: 120px;" class="buttons"> 
+            <button style="position:relative;right: -84px;" class="btn-outline-dark my-2" onclick="moveUp()">up</button>
+    <div>
+            <button class="btn-outline-dark" onclick="moveLeft()">left</button>
+            <button class="btn-outline-dark" onclick="moveDown()">down</button>
+            <button class="btn-outline-dark" onclick="moveRight()">right</button>
+        </div>
+    </div>
+    <div class="d-flex justify-content-between minmax">
+        <button class="btn-outline-dark" onclick="zoom()">+</button>
+        <button class="btn-outline-dark" onclick="Mini()">-</button>
+    </div>
+    <div style="position: relative;width: 100%; height: 300px;">
+    <img src="./image/freepik__comic-art-graphic-novel-art-comic-illustration-hig__19797-removebg-preview.png" alt="" class="img1" style="visibility: visible;">
+    <img src="./image/freepik__comic-art-graphic-novel-art-comic-illustration-hig__19796-removebg-preview-removebg-preview.png"  class="img2">
+    <img src="./image/monkey-d-luffy-donquixote-doflamingo-one-piece-dressrosa-png-favpng-zhRcS9TWv5eh8rCWjYStB5qPt-removebg-preview.png"  class="img3">
+
+
+   </div>
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="animation.js"></script>
+
+</body>
+</html>
