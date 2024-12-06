@@ -14,6 +14,9 @@ button{
     top: 60%;
     z-index: 1;
 }
+.minmax{
+    z-index: 4;
+}
 body{
     height: 100vh;
     background-image: url(./image/forest-scene-with-various-forest-trees_1308-58896.avif);
