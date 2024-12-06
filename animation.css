@@ -15,7 +15,8 @@ button{
     z-index: 1;
 }
 .minmax{
-    z-index: 4;
+    position:relative;
+    z-index: 1;
 }
 body{
     height: 100vh;
